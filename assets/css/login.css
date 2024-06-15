@@ -1,0 +1,57 @@
+.box {
+    position: absolute;
+    margin: 180px 280px;
+    width: 1010px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.content {
+    position: relative;
+    padding: 40px;
+    gap: 50px;
+    display: flex;
+}
+
+.donor {
+    width: 850px;
+    position: relative;
+    padding: 50px;
+    background-color: white;
+}
+
+.needer {
+    width: 850px;
+    position: relative;
+    padding: 50px;
+    background-color: white;
+    left: 0;
+}
+
+.email,
+.password {
+    /* display: flex; */
+    margin: auto;
+    padding: 15px;
+    /* max-width: 420px; */
+}
+
+.email>label {
+    margin: auto;
+    max-width: 60px;
+    /* background-color: red; */
+}
+
+.password>label {
+    margin: auto;
+    max-width: 60px;
+    /* background-color: red; */
+}
+
+.donor>button {
+    padding: 10px;
+}
+
+.section-text {
+    padding: 0;
+}
